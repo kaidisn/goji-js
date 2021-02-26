@@ -137,6 +137,7 @@ export const getWebpackConfig = ({
                 },
               },
             },
+            require.resolve('./testLoader'),
             preprocessLoader('js', nodeEnv, target),
           ],
         },
